@@ -63,7 +63,7 @@
 
 - (NSInteger)numberOfItemsInScrollView:(ZAScrollView *)scrollView
 {
-    return 72;
+    return 16;
 }
 
 - (UIView *)viewForItemInScrollView:(ZAScrollView *)scrollView atIndex:(NSInteger)itemIndex

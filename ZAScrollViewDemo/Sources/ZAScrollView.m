@@ -101,7 +101,7 @@
         
         int _perPage = [self perPage];
         int currentFirstItemIndex = _currentPage * _perPage;
-        int currrentLastItemIndex = currentFirstItemIndex + _perPage - 1;
+        int currrentLastItemIndex = MIN(currentFirstItemIndex + _perPage - 1, [_delegate numberOfItemsInScrollView:self] - 1);
         
         _scrollView.frame = self.bounds;
         CGSize scrollSize = self.bounds.size;
@@ -129,11 +129,15 @@
             }
         }
         
-        NSArray *arr = [pages allValues];
-        NSArray *keys = [pages allKeys];
-        NSNumber *max = [arr valueForKeyPath:@"@max.intValue"];
-        int key = [arr indexOfObject:max];
-        int newPage = [[keys objectAtIndex:key] intValue];
+        int newPage = 0;
+        
+        if ([pages count] > 0) {
+            NSArray *arr = [pages allValues];
+            NSArray *keys = [pages allKeys];
+            NSNumber *max = [arr valueForKeyPath:@"@max.intValue"];
+            int key = [arr indexOfObject:max];
+            newPage = [[keys objectAtIndex:key] intValue];
+        }
         
         _currentPage = newPage;
     }
