@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5AA5E0D172512F1004B5914 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA5E0C172512F1004B5914 /* UIKit.framework */; };
+		B5AA5E0F172512F1004B5914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA5E0E172512F1004B5914 /* Foundation.framework */; };
+		B5AA5E11172512F1004B5914 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AA5E10172512F1004B5914 /* CoreGraphics.framework */; };
+		B5AA5E17172512F2004B5914 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5E15172512F2004B5914 /* InfoPlist.strings */; };
+		B5AA5E19172512F2004B5914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5E18172512F2004B5914 /* main.m */; };
+		B5AA5E1D172512F2004B5914 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5E1C172512F2004B5914 /* TTAppDelegate.m */; };
+		B5AA5E1F172512F2004B5914 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5E1E172512F2004B5914 /* Default.png */; };
+		B5AA5E21172512F2004B5914 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5E20172512F2004B5914 /* Default@2x.png */; };
+		B5AA5E23172512F2004B5914 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5E22172512F2004B5914 /* Default-568h@2x.png */; };
+		B5AA5E26172512F2004B5914 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5E25172512F2004B5914 /* TTViewController.m */; };
+		B5AA5E29172512F2004B5914 /* TTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5E27172512F2004B5914 /* TTViewController.xib */; };
+		B5AA5E34172513B2004B5914 /* DemoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5E30172513B2004B5914 /* DemoItemView.m */; };
+		B5AA5E35172513B2004B5914 /* ZAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5E33172513B2004B5914 /* ZAScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5AA5E09172512F1004B5914 /* ZAScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AA5E0C172512F1004B5914 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5AA5E0E172512F1004B5914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5AA5E10172512F1004B5914 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5AA5E14172512F2004B5914 /* ZAScrollViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZAScrollViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B5AA5E16172512F2004B5914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5AA5E18172512F2004B5914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5AA5E1A172512F2004B5914 /* ZAScrollViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZAScrollViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B5AA5E1B172512F2004B5914 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		B5AA5E1C172512F2004B5914 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		B5AA5E1E172512F2004B5914 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5AA5E20172512F2004B5914 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5AA5E22172512F2004B5914 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5AA5E24172512F2004B5914 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		B5AA5E25172512F2004B5914 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		B5AA5E28172512F2004B5914 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTViewController.xib; sourceTree = "<group>"; };
+		B5AA5E2F172513B2004B5914 /* DemoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItemView.h; sourceTree = "<group>"; };
+		B5AA5E30172513B2004B5914 /* DemoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItemView.m; sourceTree = "<group>"; };
+		B5AA5E32172513B2004B5914 /* ZAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAScrollView.h; sourceTree = "<group>"; };
+		B5AA5E33172513B2004B5914 /* ZAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5AA5E06172512F1004B5914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AA5E0D172512F1004B5914 /* UIKit.framework in Frameworks */,
+				B5AA5E0F172512F1004B5914 /* Foundation.framework in Frameworks */,
+				B5AA5E11172512F1004B5914 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5AA5E00172512F1004B5914 = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E12172512F2004B5914 /* ZAScrollViewDemo */,
+				B5AA5E0B172512F1004B5914 /* Frameworks */,
+				B5AA5E0A172512F1004B5914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5AA5E0A172512F1004B5914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E09172512F1004B5914 /* ZAScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AA5E0B172512F1004B5914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E0C172512F1004B5914 /* UIKit.framework */,
+				B5AA5E0E172512F1004B5914 /* Foundation.framework */,
+				B5AA5E10172512F1004B5914 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5AA5E12172512F2004B5914 /* ZAScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E31172513B2004B5914 /* Sources */,
+				B5AA5E2F172513B2004B5914 /* DemoItemView.h */,
+				B5AA5E30172513B2004B5914 /* DemoItemView.m */,
+				B5AA5E1B172512F2004B5914 /* TTAppDelegate.h */,
+				B5AA5E1C172512F2004B5914 /* TTAppDelegate.m */,
+				B5AA5E24172512F2004B5914 /* TTViewController.h */,
+				B5AA5E25172512F2004B5914 /* TTViewController.m */,
+				B5AA5E27172512F2004B5914 /* TTViewController.xib */,
+				B5AA5E13172512F2004B5914 /* Supporting Files */,
+			);
+			path = ZAScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		B5AA5E13172512F2004B5914 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E14172512F2004B5914 /* ZAScrollViewDemo-Info.plist */,
+				B5AA5E15172512F2004B5914 /* InfoPlist.strings */,
+				B5AA5E18172512F2004B5914 /* main.m */,
+				B5AA5E1A172512F2004B5914 /* ZAScrollViewDemo-Prefix.pch */,
+				B5AA5E1E172512F2004B5914 /* Default.png */,
+				B5AA5E20172512F2004B5914 /* Default@2x.png */,
+				B5AA5E22172512F2004B5914 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AA5E31172513B2004B5914 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B5AA5E32172513B2004B5914 /* ZAScrollView.h */,
+				B5AA5E33172513B2004B5914 /* ZAScrollView.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5AA5E08172512F1004B5914 /* ZAScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AA5E2C172512F2004B5914 /* Build configuration list for PBXNativeTarget "ZAScrollViewDemo" */;
+			buildPhases = (
+				B5AA5E05172512F1004B5914 /* Sources */,
+				B5AA5E06172512F1004B5914 /* Frameworks */,
+				B5AA5E07172512F1004B5914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAScrollViewDemo;
+			productName = ZAScrollViewDemo;
+			productReference = B5AA5E09172512F1004B5914 /* ZAScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5AA5E01172512F1004B5914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zart Arn";
+			};
+			buildConfigurationList = B5AA5E04172512F1004B5914 /* Build configuration list for PBXProject "ZAScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5AA5E00172512F1004B5914;
+			productRefGroup = B5AA5E0A172512F1004B5914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AA5E08172512F1004B5914 /* ZAScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5AA5E07172512F1004B5914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AA5E17172512F2004B5914 /* InfoPlist.strings in Resources */,
+				B5AA5E1F172512F2004B5914 /* Default.png in Resources */,
+				B5AA5E21172512F2004B5914 /* Default@2x.png in Resources */,
+				B5AA5E23172512F2004B5914 /* Default-568h@2x.png in Resources */,
+				B5AA5E29172512F2004B5914 /* TTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5AA5E05172512F1004B5914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AA5E19172512F2004B5914 /* main.m in Sources */,
+				B5AA5E1D172512F2004B5914 /* TTAppDelegate.m in Sources */,
+				B5AA5E26172512F2004B5914 /* TTViewController.m in Sources */,
+				B5AA5E34172513B2004B5914 /* DemoItemView.m in Sources */,
+				B5AA5E35172513B2004B5914 /* ZAScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5AA5E15172512F2004B5914 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AA5E16172512F2004B5914 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5AA5E27172512F2004B5914 /* TTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AA5E28172512F2004B5914 /* en */,
+			);
+			name = TTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5AA5E2A172512F2004B5914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B5AA5E2B172512F2004B5914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5AA5E2D172512F2004B5914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZAScrollViewDemo/ZAScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZAScrollViewDemo/ZAScrollViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5AA5E2E172512F2004B5914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZAScrollViewDemo/ZAScrollViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZAScrollViewDemo/ZAScrollViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5AA5E04172512F1004B5914 /* Build configuration list for PBXProject "ZAScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AA5E2A172512F2004B5914 /* Debug */,
+				B5AA5E2B172512F2004B5914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AA5E2C172512F2004B5914 /* Build configuration list for PBXNativeTarget "ZAScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AA5E2D172512F2004B5914 /* Debug */,
+				B5AA5E2E172512F2004B5914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5AA5E01172512F1004B5914 /* Project object */;
+}
